@@ -1,0 +1,37 @@
+{
+	"name": "goodsnber-store",
+	"version": "1.0.0",
+	"description": "SPA fullstack store development",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/berlik-gabdulin/GoodsNBer-Store.git"
+	},
+	"keywords": [
+		"reactjs",
+		"mobx",
+		"nodejs",
+		"postgresql",
+		"sequelize"
+	],
+	"author": "Berlik Gabdulin",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/berlik-gabdulin/GoodsNBer-Store/issues"
+	},
+	"homepage": "https://github.com/berlik-gabdulin/GoodsNBer-Store#readme",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"pg": "^8.5.1",
+		"pg-hstore": "^2.3.3",
+		"sequelize": "^6.6.2"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.7"
+	}
+}
